@@ -29,6 +29,7 @@ message OrderItem {
     string goodsSn = 1;
     string goodsName = 2;
     int32 qty = 3;
-    double price = 4;
+    string goodsUnit = 4;
+    double price = 5;
 }
 

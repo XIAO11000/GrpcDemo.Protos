@@ -21,7 +21,8 @@ message OrderResponse {
     };
     OrderType orderType = 3;
     int64 createTime = 4;
-    repeated OrderItem items = 5;
+    string buyer = 5;
+    repeated OrderItem items = 6;
 }
 
 message OrderItem {
